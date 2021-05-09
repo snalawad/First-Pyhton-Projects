@@ -1,0 +1,12 @@
+C:\Users\nalaw\Documents\Python> & C:/Python/python.exe c:/Users/nalaw/Documents/Python/texttospeech.py
+If you wish to continue enter y....y
+PdfReadWarning: Superfluous whitespace found in object header b'1' b'0' [pdf.py:1665]
+PdfReadWarning: Superfluous whitespace found in object header b'2' b'0' [pdf.py:1665]
+PdfReadWarning: Superfluous whitespace found in object header b'3' b'0' [pdf.py:1665]
+PdfReadWarning: Superfluous whitespace found in object header b'38' b'0' [pdf.py:1665]
+2
+PdfReadWarning: Superfluous whitespace found in object header b'39' b'0' [pdf.py:1665]
+PS C:\Users\nalaw\Documents\Python> & C:/Python/python.exe c:/Users/nalaw/Documents/Python/texttospeech.py
+If you wish to continue enter y....y
+PdfReadWarning: Superfluous whitespace found in object header b'2' b'0' [pdf.py:1665]
+1
