@@ -1,0 +1,35 @@
+class Graph:
+    def __init__(self, edges, n):  # A list of lists to represent an  adjacency list
+        self.adjList = [[] for _ in range(n)]
+
+        # add edges to undirected graph
+        for (src, dest) in edges:
+            self.adjList[src].append(dest)
+            self.adjList[dest].append(src)
+
+
+# dfs traversing
+def recursiveDFS(graph, v, discovered):
+    discovered[v] = True
+    print(v, end='')
+
+    # do for every edge
+    for u in graph.adjList[v]:
+        if not discovered[u]:
+            recursiveDFS(graph, u, discovered)
+
+
+if __name__ == '__main__':
+    edges = [
+        (1, 2), (1, 7), (1, 8), (2, 3), (2, 6), (7, 4), (7, 5), (8, 9)
+    ]
+
+n = 12
+
+graph = Graph(edges, n)
+
+discovered = [False] * n
+
+for i in range(n):
+    if not discovered[1]:
+        recursiveDFS(graph, i, discovered)
